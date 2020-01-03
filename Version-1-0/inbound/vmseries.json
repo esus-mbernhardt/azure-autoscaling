@@ -224,6 +224,7 @@
         {
             "type": "Microsoft.Compute/virtualMachineScaleSets",
             "name": "[parameters('vmssName')]",
+            "zones": "["1","2","3"]",
             "location": "[resourceGroup().location]",
             "apiVersion": "2017-12-01",
             "tags": {
