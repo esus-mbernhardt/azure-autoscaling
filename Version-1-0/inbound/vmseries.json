@@ -176,7 +176,7 @@
     "variables": {
         "rgname": "[resourceGroup().id]",
         "namingInfix": "[substring(uniqueString(parameters('guidValue')), 0, 5)]",
-        "autoscaleName": "[concat(parameters('vmssName'), 'autoscale')]",
+        "autoscaleName": "[concat(parameters('vmssName'), 'as')]",
         "nicNameMgmt": "[concat(parameters('vmssName'), 'nicmgmt')]",
         "nicNameUntrust": "[concat(parameters('vmssName'), 'nicuntrust')]",
         "nicNameTrust": "[concat(parameters('vmssName'), 'nictrust')]",
